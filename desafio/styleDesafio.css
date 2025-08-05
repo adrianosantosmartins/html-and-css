@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&display=swap');
+
+:root{
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --fonte-padrao: Arial, Helvetica, sans-serif; 
+    --fonte-destaque: "Bebas Neue";
+    --font-android:  'idroid.otf';
+    
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body{
+    
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    font-style: normal;
+    
+    
+     
+}
+article{
+    margin: auto;
+}
+
+#cab{
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px;
+    
+    
+    
+}
+#cab > p{
+    margin-top: 29px;
+}
+#cab > h1{
+    font-weight: bold;
+    font-size: 1.7em; 
+    font-family: var(--fonte-destaque);
+    color: white;
+}
+header{
+    
+    background-image: linear-gradient(to top, #217245, #3CDB84);
+    color: white; 
+    font-size: 14px;     
+}
+header > a{
+    text-decoration: none;
+    color: white;
+    padding:5px 15px 0 15px;
+}
+
+header > a:hover{
+    background-image: linear-gradient(45deg, #217245, #3CDB84);
+    border-radius: 10%;
+    
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    height: max-content;
+    margin: auto;
+    padding: 20px;
+    
+}
+main >h1,h2{
+    font-family:var(--font-android);
+    color: var(--cor6);  
+    background-image: linear-gradient(to right, #21724556, #3cdb841a);
+    
+}
+main > h2,h1{
+    background-image: linear-gradient(to right, #21724556, #3cdb841a);
+    font-family:var(--font-android);
+    color: var(--cor6); 
+
+}
+main>p{
+    text-indent: 30px;
+}
+main>h1{
+    font-size: 2em;
+}
+#extra{
+    background-color: #3cdb8440;
+    padding: 0px 10px 5px; 
+    border-radius: 5%;
+    
+}
+#extra> p{
+    text-indent: 30px;
+}
+#extra> h2{
+    background-color: #217245;
+    color: white;
+    padding: 7px 10px 5px; 
+    margin-top: -10px; 
+}
+#yt{
+    text-align: center;
+    margin: auto;
+    background-color: #217245;
+    height: x;
+    padding: 40px 20px;
+}
+#principal>img{
+    margin: auto;
+    display: block;
+}
+footer{
+    padding-bottom: 0.5px    ;
+    text-align: center;
+    background-color: #217245; 
+    color: white;
+}
